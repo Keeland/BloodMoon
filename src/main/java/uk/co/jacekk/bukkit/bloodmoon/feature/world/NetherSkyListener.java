@@ -52,7 +52,7 @@ public class NetherSkyListener extends BaseListener<BloodMoon> {
             }
         }
 
-        //player.updateInventory(); Possibly no longer needed
+        player.updateInventory(); Needed to fix cilent empty inventory glitch
     }
 
     @EventHandler(priority = EventPriority.NORMAL, ignoreCancelled = true)
